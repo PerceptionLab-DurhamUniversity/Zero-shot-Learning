@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=0 python main.py  --manualSeed 9182  --preprocessing --val_every 1 --lr 0.00001 --cuda --image_embedding res101 --class_embedding att    --ngh 4096 --nch 1024 --nclass_all 50 --nclass_train 40 --dataset AWA2 --batch_size 16 --nz 85 --attSize 85 --resSize 2048  --nepoch 50 --epoch_q 20  --need_teacher --teacher_type  seen_classes
+
+CUDA_VISIBLE_DEVICES=0 python main.py  --manualSeed 9182  --preprocessing --val_every 1 --lr 0.00001 --cuda --image_embedding res101 --class_embedding att    --ngh 4096 --nch 1024 --nclass_all 50 --nclass_train 40 --dataset AWA2 --batch_size 16 --nz 85 --attSize 85 --resSize 2048  --nepoch 50 --epoch_q 20 

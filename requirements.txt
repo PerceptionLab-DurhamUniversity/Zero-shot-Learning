@@ -1,0 +1,6 @@
+python=3.7
+pytorch
+numpy
+scipy
+scikit-learn
+tensorboardX
